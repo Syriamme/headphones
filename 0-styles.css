@@ -1,0 +1,87 @@
+/* Reset CSS */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8D8D8;
+  }
+.container {
+    border: 1px solid #979797;
+    background: #D8D8D8;
+    width: 1400px;
+    height: 800px;
+    flex-shrink: 0;
+  }
+  
+    /* Header styles */
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.logo {
+    width: 161px;
+    height: 32px;
+    flex-shrink: 0;
+}
+.logo img {
+    width: 161px;
+    height: 32px;
+    flex-shrink: 0;
+}
+  .menu {
+    display: inline-flex;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 41px;
+    flex-shrink: 0;;
+}
+.nav-bar {
+    display: inline-block;
+    flex-direction: column;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+  
+.nav {
+display: flex;
+flex-direction: row;
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
+}
+
+.nav .nav-item {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0 2rem 0 0;
+}
+
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.nav .nav-link:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
