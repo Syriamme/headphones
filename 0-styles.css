@@ -1,4 +1,20 @@
 /* Reset CSS */
+
+/* Desktop version */
+.container {
+    width: 1000px;
+    height: 800px;
+    flex-shrink: 1;
+    margin: 0 auto;
+  }
+/* Mobile version */
+  @media (max-width: 480px) {
+    .container {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  }
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -9,11 +25,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #D8D8D8;
-  }
-.container {
-    width: 1400px;
-    height: 800px;
-    flex-shrink: 0;
   }
   
     /* Header styles */
@@ -124,11 +135,12 @@ text-align: center;
     font-weight: 700;
     line-height: normal;
 }
-.hero .button-bg {
+.button-bg {
     text-transform: uppercase;
     width: 162px;
     height: 44px;
     flex-shrink: 0;
+    border: none;
     border-radius: 22px;
     background: #FF6565;
     color: #FFF;
@@ -138,6 +150,10 @@ text-align: center;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.button-bg:hover,
+.button-bg:active {
+  opacity: 0.9;
 }
 .hero .main-part-2 {
     width: 637px;
