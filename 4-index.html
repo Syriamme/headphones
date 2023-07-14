@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphone Company</title>
-    <link rel="stylesheet" href="2-styles.css">
+    <link rel="stylesheet" href="4-styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <div class="first-section">
+        <div class="container">
+        <header">
             <div class= "logo">
                 <img src= "#" alt="Headphone Company Logo">
             </div>
@@ -22,17 +23,18 @@
                 </nav>
             </div>
         </header>
-    <div class= "hero">
-        <p class= "main-part-1"><strong>Lorem ipsum dolor set amet lorem ipsum</strong></p>
-        <p class= "main-part-2">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
-        <button class="button-bg">Call to Action</button>
-        <p class="main-part-2" >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation 
-            ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in 
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
+        <div class= "hero">
+            <p class= "main-part-1"><strong>Lorem ipsum dolor set amet lorem ipsum</strong></p>
+            <p class= "main-part-2">Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+            <button class="button-bg">Call to Action</button>
+            <p class="main-part-2" >Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
     </div>
     <!– What to do section –>
     <section class= "section">
@@ -109,7 +111,7 @@
     </section>
     <section class= "our-results">
         <div class= "container">
-            <div class="part-3">
+            
                 <div class="part-3-Text">
                    <p>Our results speak for themselves</p>
                 </div>
@@ -152,26 +154,28 @@
                         <span class="text-2">Lorem ipsum dolor</span>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
-    <section class= "contacts">
-        <div class= "container">
-            <div class="contact-page">
-                <div class = "contact-us">
-                    <p>Contact us</p>
-                </div>
-                <div class="input-1">
-                    <p>Name</p>
-                </div>
-                <div class="input-2">
-                    <p>Email</p>
-                </div>
-                <div class="input-3">
-                    <p>Your Message</p>
-                </div>
-                <div class="button-bg">
-                    <button></button>
+    <section class="contacts">
+        <div class="container">
+          <div class="contact-page">
+            <div class="contact-us">
+              <p>Contact us</p>
+            </div>
+            <div class="input-1">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name">
+            </div>
+            <div class="input-2">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+            <div class="input-3">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+                <div>
+                    <button class= "button-bg">call to action</button>
                 </div>
             </div>
         </div>
