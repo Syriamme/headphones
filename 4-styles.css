@@ -52,12 +52,12 @@ header {
   flex-shrink: 0;
 }
 .menu {
-  display: inline-flex;
+  display: flex;
   height: 15px;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content:end;
+  align-items: flex-end;
   gap: 41px;
-  flex-shrink: 0;;
+  flex-shrink: 0;
 }
 .nav-bar {
   display: inline-block;
