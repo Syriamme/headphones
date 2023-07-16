@@ -1,16 +1,19 @@
 /* Reset CSS */
 
 /* Desktop version */
-.container {
-  width: 100%;
-  margin: 0;
-  padding: 0
+.body {
+  width: 1400px;
+  height: 3006px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 /* Mobile version */
 @media (max-width: 480px) {
   .container {
-    max-width: 100%;
-    padding: 0 10px;
+    max-width: 90%;
+    padding: 0;
   }
 }
 
@@ -19,13 +22,7 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .first-section {
-  width: 1400px;
   height: 800px;
   background-color: #080707;
   flex-shrink: 0;
@@ -100,7 +97,6 @@ text-align: center;
   text-decoration: none;
 }
 .hero {
-  width: 637px;
   height: 313px;
   flex-shrink: 1;
   margin: 0 auto;
@@ -160,7 +156,6 @@ text-align: center;
 opacity: 0.9;
 }
 .hero .main-part-2 {
-  width: 637px;
   color: #FFF;
   text-align: center;
   font-family: Source Sans Pro;
@@ -170,7 +165,6 @@ opacity: 0.9;
   line-height: 26px;
 }
 .section {
-  width: 1400px;
   height: 800px;
   flex-shrink: 0;
   background-color: white;
@@ -284,7 +278,6 @@ opacity: 0.9;
 }
 
 .our-results {
-  width: 1400px;
   height: 650px;
   flex-shrink: 0;
   background-color:black;
@@ -348,7 +341,6 @@ opacity: 0.9;
   line-height: 26px; /* 185.714% */
 }
 .contacts {
-  width: 1400px;
   height: 650px;
   background-color: #FFF;
   border-radius: 10px;
@@ -410,7 +402,6 @@ label {
 }
 
 .footer {
-  width: 1400px;
   height: 249px;
   flex-shrink: 0;
   background-color: #071629;
@@ -424,10 +415,10 @@ label {
 
 .footnote {
   color: #FFF;
-font-family: Source Sans Pro;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-opacity: 0.3516787588596344;
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3516787588596344;
 }
